@@ -1,6 +1,5 @@
 require_relative './user'
 class Student < User
-    # @student_knowledge=Array.new
     attr_accessor :knowledge
     def initialize(knowledge=Array.new)
         @knowledge=knowledge
@@ -14,8 +13,3 @@ class Student < User
         @knowledge
     end
 end
-serena= Student.new
-puts serena.first_name= "Serena"
-puts serena.last_name= "Sereya"
-pp serena.learn("Best student in Math")
-pp serena .knowledge
